@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Faustin Education Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container container">
+            <div class="logo-section">
+                <div class="logo">
+                    <img class="logo-image" src="logo.png" alt="Company logo">
+                </div>
+                <div>
+                    <h1 class="company-name">Faustin Niringiyimana Education Hub</h1>
+                    <p>Helping secondary graduates access higher education.</p>
+                </div>
+            </div>
+            <div class="contact-info-header">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="About Us.html" class="nav-link">About Us</a></li>
+                <li><a href="Services.html" class="nav-link active">Services</a></li>
+                <li><a href="Team.html" class="nav-link">Team</a></li>
+                <li><a href="Contact Us.html" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Everything we do is designed to help you succeed in your higher education journey.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Resume & CV Review</h3>
+                    <p>We polish your resume and CV to highlight your achievements so your university application stands out.</p>
+                    <span class="service-price">15,000 FRW</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>University Application Guide</h3>
+                    <p>Guided application support for local and international universities, including essay advice and document preparation.</p>
+                    <span class="service-price">25,000 FRW</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Scholarship Search & Application</h3>
+                    <p>Identify scholarship opportunities and receive help applying to the ones that match your profile.</p>
+                    <span class="service-price">20,000 FRW</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Career Counseling</h3>
+                    <p>Personalized advice to choose the best university program and future career path.</p>
+                    <span class="service-price">30,000 FRW</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌍</div>
+                    <h3>International University Guidance</h3>
+                    <p>Support for applying to international universities, including visa and living advice.</p>
+                    <span class="service-price">35,000 FRW</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📞</div>
+                    <h3>Monthly Mentoring Program</h3>
+                    <p>Ongoing mentoring and progress check-ins to keep your university goals on track.</p>
+                    <span class="service-price">50,000 FRW/month</span>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h3>Payment Methods</h3>
+                <p>We accept MTN MoMo, Airtel Money, bank transfer, and cash payments at our Karongi campus. Please contact us for payment details and booking confirmation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-section">
+                <h4>About Faustin Education Hub</h4>
+                <p>We help secondary graduates access higher education with expert guidance, scholarships support, and application preparation.</p>
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Company logo">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="Services.html">Resume Review</a></li>
+                    <li><a href="Services.html">University Applications</a></li>
+                    <li><a href="Services.html">Scholarship Search</a></li>
+                    <li><a href="Services.html">Career Counseling</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>📞 0784214244</p>
+                <p>📍 Kepler Kiziba Karongi District</p>
+                <p>📧 info@faustineducationhub.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Faustin Education Hub. All rights reserved. | Designed with ❤️ by Faustin Niringiyimana</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
